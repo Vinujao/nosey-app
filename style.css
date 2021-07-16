@@ -1,0 +1,18 @@
+canvas{
+    border: 5px dotted greenyellow ;
+    margin-top: 50px;
+    animation-name: shadow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes shadow{
+    from{
+        box-shadow:10px 10px 50px goldenrod;
+    }
+    to{
+        box-shadow:10px 10px 50px rgb(134, 32, 218);
+    }
+}
+.btn-info:hover{
+    background-color: greenyellow;
+}
